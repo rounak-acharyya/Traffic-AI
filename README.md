@@ -1,12 +1,41 @@
-# React + Vite
+Project Title : Create software using AI and ML that helps clear traffic for ambulances and other emergency vehicles by analyzing live traffic data, predicting jams, and giving suggestions to traffic authorities for quick and efficient route management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI/ML & Data Analytics Team - Team 7
 
-Currently, two official plugins are available:
+Team Members : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Rounak Acharyya 23BCE7957
 
-## Expanding the ESLint configuration
+Lakshya Parashar 23BCE8333
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Gavini Sai Geeteswa Sudarshan 23BCE8626
+
+Project Description : This project leverages Machine Learning (ML) and Artificial Intelligence (AI) to optimize traffic management for emergency vehicles by predicting congestion and suggesting real-time route adjustments. The model is trained using NYC Open Data and employs a Random Forest Regressor (RFR) for traffic volume prediction.
+
+How It Works? 
+
+1️.  Preprocess traffic data (time, location, borough, direction, and volume).
+
+2️.  Train the ML model to predict traffic congestion patterns.
+
+3️.  Use real-time GPS coordinates to check ambulance locations.
+
+4️.  Predict congestion levels and recommend whether to deploy an emergency lane.
+
+5️.  Visualize insights on a Streamlit-based dashboard.
+
+Dataset: https://drive.google.com/file/d/1I5-g3CwnxFc0TAFHvXtAtKYArOAN-I2a/view
+
+Architectural diagram:
+
+![WhatsApp Image 2025-03-19 at 22 34 03_e755a24a](https://github.com/user-attachments/assets/5a43e291-8eea-4fd1-9daa-ec3f2e2b8e17)
+
+
+References:
+
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+
+- NYC Open Data Traffic Dataset: [Link](https://opendata.cityofnewyork.us/)
+
+-  **GeoPandas Documentation** – Official documentation for GeoPandas, covering geospatial data handling and visualization.  
+  [GeoPandas Docs](https://geopandas.org/en/stable/)  
